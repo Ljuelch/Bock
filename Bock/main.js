@@ -7,7 +7,7 @@ btnJa.addEventListener("click", () =>
 
 function hoverEffect() {
     btnNein.addEventListener("mouseover", function() {
-        this.kleiner-= 10;
+        this.kleiner-= 5;
         this.style.right = Math.random() * 100+"%";
         this.style.top = Math.random() * 100+"%";
         this.style.width = this.kleiner / 100 * 200 + "px";
